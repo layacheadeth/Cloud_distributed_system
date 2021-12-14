@@ -24,24 +24,4 @@
   color: #61dafb;
 }
 
-.songList{
-  display: flex;
-  flex-direction: column;
-}
-
-.songCard{
-  display: flex;
-  justify-content: space-around;
-  padding: 5px;
-}
-
-.songTitle{
-  font-weight: bold;
-}
-
-.ourAudioPlayer{
-  display: flex;
-  justify-content: center;
-}
-
 
