@@ -9,13 +9,10 @@
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
-    "aws-amplify": "^4.3.11",
+    "aws-amplify": "^4.24.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-player": "^2.9.0",
     "react-scripts": "5.0.0",
-    "save": "^2.4.0",
-    "uuid": "^8.3.2",
     "web-vitals": "^2.1.2"
   },
   "scripts": {

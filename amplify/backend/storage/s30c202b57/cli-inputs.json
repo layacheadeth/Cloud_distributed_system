@@ -1,0 +1,13 @@
+{
+  "resourceName": "s30c202b57",
+  "policyUUID": "0c202b57",
+  "bucketName": "cloudproject123ad7e4eee28e04bc6b6a6e22d68d9e535",
+  "storageAccess": "auth",
+  "guestAccess": [],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ"
+  ],
+  "triggerFunction": "NONE",
+  "groupAccess": {}
+}
