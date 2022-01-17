@@ -27,7 +27,11 @@ const SongList = ()=>{
 
     const fetchSongs = async () => { 
         try {
-        const songData = await API.graphql(graphqlOperation(listSongs)); 
+       const songData = await API.graphql(graphqlOperation(listSongs)); 
+        // const songData = await API.graphql({
+        //   query: listSongs,
+        //   authMode: 'AWS_IAM'
+        // }); 
         const songList = songData.data.listSongs.items;
         console.log('song list', songList);
         setSongs(songList);

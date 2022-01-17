@@ -48,7 +48,8 @@ function App() {
     try{
       await Auth.signOut();      
       setloggedIn(false);
-      //history.push('/');
+      history.push("/");
+      //this.router.navigate(['/signin']);
       
     }catch (error){
       console.log("Error signing out ", error)
@@ -73,19 +74,24 @@ function App() {
             <Button variant='contained' color='primary'>
               Sign In
             </Button>
+            
           </Link>
+          
           )}         
           <h2>Our Music App</h2>
         </header>
         <Switch>
           <Route exact path="/">
-            
+            <div>
+              <img src="../public/logo512.png" alt="" />
+            </div>
           </Route>
           <Route path='/home'>
             <SongList/>
           </Route>
           <Route path='/signin'>
-            <SignIn onSignIn={onSignIn}></SignIn>
+            {/* <SignIn onSignIn={onSignIn}></SignIn> */}
+            <SignIn onSignIn={AssessLoggedInState}/>
           </Route>
         </Switch>
         
