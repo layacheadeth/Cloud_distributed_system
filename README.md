@@ -1,4 +1,12 @@
 # Our Music App(spotify)
+To run the published application use the link below:
+http://cloudproject123-20220118000552-hostingbucket-dev.s3-website-ap-southeast-1.amazonaws.com/
+
+the username: mapakama.ellis@yahoo.com
+password: mapakame0605
+
+
+#To Create a similar app follow the instructions below
 
 After cloning the github repository move to the (new_code) branch and open it in your favourite code editor.
 
