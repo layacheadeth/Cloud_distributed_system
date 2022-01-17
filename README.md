@@ -1,3 +1,31 @@
+# Our Music App(spotify)
+
+After cloning the github repository move to the (new_code) branch and open it in your favourite code editor.
+
+# Prerequisites
+1. Amazon Account
+2. Node js
+3. Npm
+4. Amplify
+
+# Installing Amplify
+After NodeJs and Npm are installed you need to install amplify cli using: 
+1. [npm install -g @aws-amplify/cli]
+2. amplify configure
+This will open a aws in a browser, use your account to login. After logging into aws go back to code editor and press enter and follow steps
+- Add a region where u want to deploy the application
+- and a name for the user and click enter. this will take you back to the browser where u create a user following the steps and make sure to keep note of the new User access key and secret key.
+- After creating the user go back to terminal and press enter, paste the secret key and access key from the aws IAM you just created in the browser.
+- You will be asked to add this to profile, say YES and give a name.
+3. Amplify init
+4. Amplify add auth
+Select method as default and use email to sign in then click no I'm done and wait for it to finish creating configuration files.
+
+#Installing React Prerequisites
+1. npm install -- save @aws-amplify/ui-react
+   
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
