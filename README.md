@@ -1,7 +1,7 @@
 # Cloud_distributed_system
 This Repository has our final project, Amplify React Application.
 
-Go to master node and new_node for more information.
+Go to **master node** and **new_nod**e for more information.
 
 This is a cloud project which Ellish and I work together on.
 
